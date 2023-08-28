@@ -33,6 +33,3 @@ if st.button('Predict'):
         st.write('Prediction: No Thyroid Disease')
     else:
         st.write('Prediction: Thyroid Disease Detected')
-
-     # Increase font size using native text formatting
-    st.write(prediction_text, font_size=24, text_align='center')
