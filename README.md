@@ -1,4 +1,4 @@
-# THYROID-DISEASE-PREDICTION-WITH-MODEL-DEPLOYMENT
+# THYROID-DISEASE-PREDICTION-WITH-MODEL-DEPLOYMENT_STREAMLIT APP
 
 ## Table of Contents
 
@@ -11,7 +11,7 @@
 
 ## About
 
-This project aims to predict thyroid disease using machine learning and deep learning techniques. It encompasses the entire data science pipeline, from loading and preprocessing the dataset to deploying the final model.
+This project aims to predict thyroid disease using machine learning and deep learning techniques. It encompasses the entire data science pipeline, from loading and preprocessing the dataset to deploying a selected model.
 
 ## Features
 
@@ -20,7 +20,7 @@ This project aims to predict thyroid disease using machine learning and deep lea
 - Data Cleaning and Visualization
 - Machine Learning Model Implementation
 - Deep Learning Model Implementation
-- Model Deployment
+- Model Deployment via Streamlit App
 
 ## Project Structure
 - data/: Contains the dataset used for training and testing.
@@ -35,7 +35,7 @@ This project aims to predict thyroid disease using machine learning and deep lea
 The project achieved a predictive model for thyroid disease, demonstrating strong performance across different machine learning and deep learning techniques.
 
 ## Model Deployment
-XGBoost model used in deploying the model, a powerful gradient boosting algorithm that is often used for various machine learning tasks including classification.
+XGBoost model used in deploying the model, a powerful gradient boosting algorithm that is often used for various machine learning tasks including classification. The selected model was deployed using Streamlit app
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute, please feel free to fork the repository, make your changes, and submit a pull request.
