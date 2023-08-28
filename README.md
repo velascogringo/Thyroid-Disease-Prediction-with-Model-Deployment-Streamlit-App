@@ -6,6 +6,8 @@
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [Results](#results)
+- [Model Deployment](#model-deployment)
+- [Deployed Model URL](#deployed-model-URL)
 - [Contributing](#contributing)
 
 
@@ -36,6 +38,9 @@ The project achieved a predictive model for thyroid disease, demonstrating stron
 
 ## Model Deployment
 XGBoost model used in deploying the model, a powerful gradient boosting algorithm that is often used for various machine learning tasks including classification. The selected model was deployed using Streamlit app
+
+## Deployed Model URL
+https://thyroidpredict.streamlit.app/
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute, please feel free to fork the repository, make your changes, and submit a pull request.
