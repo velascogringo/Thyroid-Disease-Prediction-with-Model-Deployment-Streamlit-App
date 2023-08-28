@@ -37,7 +37,7 @@ This project aims to predict thyroid disease using machine learning and deep lea
 The project achieved a predictive model for thyroid disease, demonstrating strong performance across different machine learning and deep learning techniques.
 
 ## Model Deployment
-XGBoost model used in deploying the model, a powerful gradient boosting algorithm that is often used for various machine learning tasks including classification. The selected model was deployed using Streamlit app
+XGBoost model was used in the deployment, a powerful gradient boosting algorithm that is often used for various machine learning tasks including classification. The selected model was deployed using Streamlit app.
 
 ## Deployed Model URL
 https://thyroidpredict.streamlit.app/
