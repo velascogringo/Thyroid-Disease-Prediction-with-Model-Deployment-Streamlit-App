@@ -34,4 +34,5 @@ if st.button('Predict'):
     else:
         st.write('Prediction: Thyroid Disease Detected')
 
-    st.markdown(f"<h2 style='text-align: center;'>{prediction_text}</h2>", unsafe_allow_html=True)
+    # Increase font size using text formatting options
+    st.write(f"## {prediction_text}")  # Use ## for larger font size
