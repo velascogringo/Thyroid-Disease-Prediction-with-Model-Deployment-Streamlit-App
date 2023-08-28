@@ -30,7 +30,7 @@ This project aims to predict thyroid disease using machine learning and deep lea
 - visualizations/: Generated plots and visualizations.
 - models/: Saved machine learning and deep learning models.
 - deployment/: Files for deploying the final model.
-- requirements.txt: List of required Python packages are provided in the notebooks.
+- requirements.txt: List of required Python packages.
 - README.md: You are here!
 
 ## Results
