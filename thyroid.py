@@ -33,3 +33,5 @@ if st.button('Predict'):
         st.write('Prediction: No Thyroid Disease')
     else:
         st.write('Prediction: Thyroid Disease Detected')
+
+st.markdown(f"<h2 style='text-align: center;'>{prediction_text}</h2>", unsafe_allow_html=True)
