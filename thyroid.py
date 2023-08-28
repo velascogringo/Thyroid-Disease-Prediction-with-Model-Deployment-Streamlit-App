@@ -34,5 +34,5 @@ if st.button('Predict'):
     else:
         st.write('Prediction: Thyroid Disease Detected')
 
-    # Increase font size using CSS styling
-    st.write(f'<div style="font-size: 24px; text-align: center;">{prediction_text}</div>', unsafe_allow_html=True)
+     # Increase font size using native text formatting
+    st.write(prediction_text, font_size=24, text_align='center')
