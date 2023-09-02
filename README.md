@@ -1,4 +1,5 @@
-# THYROID-DISEASE-PREDICTION-WITH-MODEL-DEPLOYMENT_STREAMLIT APP
+# Thyroid Disease Prediction with Model Deployment (Streamlit App)
+![Streamlit Logo](https://www.streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.png)
 
 ## Table of Contents
 
