@@ -11,11 +11,11 @@ st.title('Thyroid Disease Prediction')
 st.write('Input the following features to get a prediction:')
 
 # Input fields
-age = st.number_input('Age', min_value=1, max_value=100, value=25)
+age = st.number_input('Age', min_value=0, max_value=100)
 gender = st.selectbox('Gender', ['Male', 'Female'])
-tsh = st.number_input('TSH', min_value=0.01, max_value=500.0, value=1.0)
-t3 = st.number_input('T3', min_value=0.1, max_value=500.0, value=2.0)
-tt4 = st.number_input('TT4', min_value=1.0, max_value=500.0, value=100.0)
+tsh = st.number_input('TSH', min_value=0.00, max_value=500.0)
+t3 = st.number_input('T3', min_value=0.0, max_value=500.0)
+tt4 = st.number_input('TT4', min_value=0.0, max_value=500.0)
 
 # Convert gender to numeric (assuming Female=0, Male=1)
 gender_num = 1 if gender == 'Male' else 0
