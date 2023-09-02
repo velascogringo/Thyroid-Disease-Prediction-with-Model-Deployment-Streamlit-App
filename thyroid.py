@@ -13,7 +13,7 @@ st.write('Input the following features to get a prediction:')
 # Input fields
 age = st.number_input('Age', min_value=0, max_value=100)
 gender = st.selectbox('Gender', ['Male', 'Female'])
-tsh = st.number_input('TSH', min_value=0.00, max_value=500.0)
+tsh = st.number_input('TSH', min_value=0.0, max_value=500.0)
 t3 = st.number_input('T3', min_value=0.0, max_value=500.0)
 tt4 = st.number_input('TT4', min_value=0.0, max_value=500.0)
 
